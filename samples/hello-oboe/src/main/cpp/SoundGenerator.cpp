@@ -20,7 +20,7 @@ SoundGenerator::SoundGenerator(int32_t sampleRate, int32_t channelCount) :
         TappableAudioSource(sampleRate, channelCount)
         , mOscillators(std::make_unique<Oscillator[]>(channelCount)){
 
-    double frequency = 440.0;
+    double frequency = 220.0;
     constexpr double interval = 110.0;
     constexpr float amplitude = 1.0;
 

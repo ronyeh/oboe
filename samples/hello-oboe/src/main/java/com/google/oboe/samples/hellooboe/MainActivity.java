@@ -48,7 +48,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class MainActivity extends Activity {
-    private static final String TAG = "HelloOboe";
+    private static final String TAG = "Goodbye";
     private static final long UPDATE_LATENCY_EVERY_MILLIS = 1000;
     private static final Integer[] CHANNEL_COUNT_OPTIONS = {1, 2, 3, 4, 5, 6, 7, 8};
     // Default to Stereo (OPTIONS is zero-based array so index 1 = 2 channels)
